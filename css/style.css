@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Global Class Start */
+.btn {
+    background-color: #FD6E0A;
+    color: #fff;
+    padding: 18px 36px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.header_container {
+    background: url('../images/header_bg.png'), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    max-width: 1600px;
+    margin: 0px auto;
+    padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    gap: 71px;
+}
+
+/* Global Class End */
+.developer {
+    width: 136px;
+    display: flex;
+    justify-content: right;
+}
+
+/* .main_header {
+    width: 1332px;
+} */
+
+.main_header .logo h2 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.logo h2 span {
+    color: #FD6E0A;
+}
+
+.main_header .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+.menu_items ul {
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+
+.menu_items a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    padding: 3px 5px;
+    transition: 0.3s;
+}
+
+.menu_items a:hover {
+    background-color: #FD6E0A;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.banner_container {
+    max-width: 1392px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 163px;
+}
+
+.banner_container .banner_image img {
+    width: 584px;
+    margin-right: 55px;
+    vertical-align: middle;
+}
+
+.banner_content .hello {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner_content .my_name {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.banner_content .banner_text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.banner_content .buttons_container {
+    display: flex;
+    gap: 30px;
+}
